@@ -1,0 +1,92 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items: center;
+  background: #4597ef;
+  justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+  color: #fff;
+  cursor: pointer;
+  margin: 20px 5px;
+  font-size: 17px;
+  background: #007bff;
+  width: 100%;
+  height: 55px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: #015ec1; 
+}
+
+.reader {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.result {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border-radius: 7px;
+    
+    visibility: hidden;
+    width: 0;
+}
+
+.result.active {
+  visibility: visible;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.status {
+  color: #007bff;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 10px 5px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+}
+
+#reader__scan_region {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#reader__scan_region img{
+  visibility: hidden;
+}
+
+#reader__dashboard_section_swaplink{
+  text-decoration: none !important;
+  color:#4597ef
+}
+
+#reader__dashboard_section_fsr {
+  margin: 20px;
+}
+
+#reader__filescan_input{
+  color: red;
+}
+

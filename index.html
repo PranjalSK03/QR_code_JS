@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Scanner/Generator</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="top-container">
+        <h1>Welcome to the QR Code Scanner/Generator</h1>
+        <div class="button-container">
+                <button class="button" onclick="scanQRCode()">Scan QR Code</button>
+                <button class="button" onclick="generateQRCode()">Generate QR Code</button>
+        </div>
+    </div>
+    <script>
+        function scanQRCode() {
+          window.location.href = "QRscan.html";
+        }
+    
+        function generateQRCode() {
+          window.location.href = "QRgen.html";
+        }
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>
