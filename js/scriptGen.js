@@ -19,7 +19,6 @@ function generateQrCode(qrContent) {
 var someimage;
 var myimg;
 
-var prevQrContent;
 qrGenerationForm.addEventListener("submit", function (event) {
     // Prevent form submission
     event.preventDefault();
